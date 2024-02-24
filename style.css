@@ -1,0 +1,44 @@
+#header {
+    display: flex;
+    justify-content: center;
+    padding: 0.5em;
+    background-color: #ffffe4;
+    border: 8px solid #e0ecf8;
+}
+
+#computer-container {
+    display: flex;
+    justify-content: center;
+    padding: 1em 0;
+}
+
+#computer {
+
+    width: 25%;
+    height: 150px;
+    background-color: #000080;
+    border: 10px solid #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#player-section {
+    display: flex;
+    justify-content:center;
+}
+#player-choice {
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+}
+.choice {
+    width: 20%;
+    height: 100px;
+    background-color: #ffffe4;
+    border: 3px dashed #000000;
+    border-radius: 6px;
+}
+
+.choice:hover {
+    background-color: #818171;;
+}

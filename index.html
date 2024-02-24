@@ -4,8 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Oan Tu Ti</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "VT323", monospace;
+        font-weight: 400;
+        font-style: normal; 
+    }
+</style>
 <body>
-    
+    <div id="header">
+        <h1>Rock Paper Scissors</h1>
+
+    </div>
+
+    <div id="computer-container">
+        <div id="computer">
+            <h1 id="computer-choice"></h1>
+        </div>
+    </div>
+
+    <div id="player-section">
+        <div id="player-choice">
+            <button class="rock choice">rock</button>
+            <button class="paper choice">paper</button>
+            <button class="scissors choice">scissors</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
